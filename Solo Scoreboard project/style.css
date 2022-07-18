@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #1B244A;
+    font-family: Timer;
+}
+
+@font-face {
+    font-family: Timer;
+    src: url(./CursedTimerUlil-Aznm.ttf);
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    width: 100%;
+    
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    padding: 6rem 0;
+}
+
+
+.title {
+    color: beige;
+    font-size: 3rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.score {
+    color: crimson;
+    font-size: 6rem;
+    text-align: center;
+    background-color: black;
+    border: solid 2px red;
+    border-radius: 5px;
+    padding-top: 1rem;
+    margin-top: 1rem;
+}
+
+.buttons {
+    margin-top: 1.3rem;
+}
+
+.buttons button {
+    cursor: pointer;
+    font-size: 2rem;
+    color: azure;
+    padding: 10px;
+    border-radius: 5px;
+    border: solid 2px azure;
+}
+
+.buttons button:hover {
+    color: green;
+    border: solid 2px green;
+}
+
+.newgame button {
+    cursor: pointer;
+    font-size: 2rem;
+    color: azure;
+    padding: 10px;
+    border-radius: 5px;
+    border: solid 2px azure;
+    display: block;
+}
+
+.newgame button:hover {
+    color: green;
+    border: solid 2px green;
+}
+
